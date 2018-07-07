@@ -1,0 +1,476 @@
+title = "Demonstration"
+url = "/"
+layout = "default"
+==
+  
+    <div class="embed-responsive embed-responsive-16by9">
+        <div id="background">
+            <video width="80%" height="100%" autoplay loop >
+            <source src="{{ 'assets/video/banner.m4v'|theme }} " type="video/mv4">
+            <source src="{{ 'assets/video/Banner.webm'|theme }} " type="video/webm">
+            
+            <!-- <p>Your browser is out of date, please update for the full experience.
+            
+            <a href="http//www.computerhope.com/issues/ch001388.htm" rel="nofollow" target="_blank">How to update my browser?</a></p> -->
+
+            
+            </video>
+        </div>
+    </div>
+    <div class="sectionBGgradient">
+        <div class="sectionBGcontent">
+            <h5>{{'Industrie 4.0, la nouvelle révolution. Agir, contrôler, maîtriser.'|_}}</h5>
+            <h3>{{'CREATEUR SUR-MESURE IoT'|_}}</h3>
+            <p class="group-btn">
+                <a class="btn-inline" href="#geosmartone">{{'Suivez le nouveau GS1'|_}}</a>
+                <!-- <a class="btn-inline" href="/file/siteGEOLOC27012018.pdf" target="_blank">Notre livre blanc</a> -->
+                <a class="btn-inline" href="#" target="">{{'Notre livre blanc'|_}}</a>
+            </p>
+            <p class="brochure">
+                <!-- <a class="btn-brochure" href="/file/siteGEOLOC27012018.pdf" target="_blank">Brochure DFM -></a> -->
+                <a class="btn-brochure" href="#" target="">{{'Brochure DFM'|_}} -></a>
+            </p>
+            <p class="arrow-down">
+                <a href="#main" class="back-to-down" id="bnSrlDown">
+                    <img width="45" height="45" src="{{'assets/img/geo/arrow_down.png'|theme}}" alt="arrow-down">
+                </a>           
+            </p>
+        </div>
+    </div>
+      <!-- #hero -->
+
+  <main id="main">
+    <!--==========================
+      geosmartone Section
+    ============================-->
+    <section id="geosmartone" class="dataspy-section">
+        <div class="container wow fadeIn">
+            <div class="section-header">
+                <h3 class="section-title" style="font-size: 30px;">{{'GEOSMARTONE'|_}}</h3>
+                <br>
+                <div class="geosmart-blockquote">
+                    <blockquote>
+                        <p>
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>    
+                            {{'Chacun de nous à besoin d’un ordinateur, d’un réseau connecté et d’une étincelle brillante d’initiative et de'|_}} </br> {{'créativité pour rejoindre l’économie numérique…'|_}} <i class="fa fa-quote-right fa-1x" aria-hidden="true" ></i>
+                        </p>
+                        <footer>{{'Prof. Don Tapscott'|_}}</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row geosmart-desc justify-content-center">
+                    <div class="col-lg-3  geosmart-desc-img">
+                        <img src="{{ 'assets/img/geo/Geolocation.jpg'|theme }}" alt="Geolocation">
+                        <p>
+                            {{'déjà 1200 ex'|_}}. </br> {{'en précommande'|_}}
+                        </p>
+                    </div>
+                    <div class="col-lg-7 geosmart-desc-text">
+                        <strong style="font-size: 30px;">{{'Notre dernière création, le GeoSmartOne'|_}} </strong></br>
+                        <p>
+                            {{'utilisant la technologie LoRaWan à moins de'|_}} 
+                            {{'30 €, prêt à être intégré sur vos réseaux et appli'|_}}.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row geosmart-counter justify-content-center">
+                    <div class="geosmart-counter-width">
+                        <p class="geosmart-counter-text">
+                            {{'votre GeoSmartOne disponible dans'|_}}
+                        </p>
+                    </div>
+                    <div class="col-lg-6 geosmart-counter-date">
+                        <div class="row">
+                            <div class="col-lg-3 col-6 text-center geosmart-line">
+                                <span id="jours"></span>
+                                <p>{{'Jours'|_}}</p>
+                            </div>
+                            <div class="col-lg-3 col-6 text-center geosmart-line">
+                                <span id="heures"></span>
+                                <p>{{'Heures'|_}}</p>
+                            </div>
+                            <div class="col-lg-3 col-6 text-center">
+                                <span id="minutes"></span>
+                                <p>{{'Minutes'|_}}</p>
+                            </div>
+                            <div class="col-lg-3 col-6 text-center">
+                                <span id="secondes">14</span>
+                                <p>{{'Secondes'|_}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="geosmart-counter-width">
+                        <p class="geosmart-counter-text">
+                              {{'Enregistrez-vous gratuitement pour ne rien perdre'|_}}
+                        </p>
+                    </div>
+                    <div class="col-lg-8 geosmart-form-email">
+                        <form action="/index.html" method="post" class="rss-form" class="rss-form">
+                            <div class="form-group">
+                                <input required type="email" class="form-control" id="email" name="email" placeholder="*{{'Courriel'|_}}">
+                                <i id="icon-email" class="fa fa-envelope-o geosmart-form-icon"  aria-hidden="true"></i>
+                            </div>
+                            <button id="sub-email" type="submit" style="display: none;visibility: hidden;"></button>
+                        </form>
+                        <p>
+                            {{'Nous ne partageons pas vos données  personnelles. Referez-vous à notre'|_ }} <a data-target="#politique" data-toggle="modal">{{'politique de confidentialité'|_}} </a>
+                        </p>
+                    </div>
+                </div>
+            </div>    
+      </div>
+    </section>
+    <!-- #geosmartone -->
+
+    <!--==========================
+      innovation Section
+    ============================-->
+    <section id="innovation" class="dataspy-section">
+        <div class="innovation-container">
+            <h1>{{'le souffle de l’innovation'|_}}</h1>
+            <h2>
+                {{'un nouveau standard dans les services de communications'|_}},</br>
+                {{'M2M et le traitement des données'|_}}.
+            </h2>
+        </div>
+    </section><!-- #innovation -->
+
+    <!--==========================
+      FONCTIONNALITE Section
+    ============================-->
+    <section id="fonctionnalite" class="dataspy-section">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+            <h3 class="section-title">{{'FONCTIONNALITES'|_}}</h3>
+            <p class="section-description">
+                {{'A DFM, nos IOTs sont développés pour répondre à vos besoins en privilégiant votre business plan,  pas le notre'|_}} : 
+                </br> {{'pas d’obligations, pas d’abonnement, pas de coûts cachés'|_}}.
+            </p>
+        </div>
+        <div class="row fonctionnalite-desc">
+            <div class="col-lg-3 col-6 text-center wow fadeInUp" data-wow-delay="0.4s">
+                <img src="{{ 'assets/img/geo/Taille.jpg'|theme }}" alt="Taille">
+                <p class="fonctionnalite-desc-title">{{'Taille'|_}}</p>
+                <p class="fonctionnalite-desc-text">{{'Le GeoSmart1 a une taille réduite lui permettant de se loger partout'|_}}.</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center wow fadeInUp" data-wow-delay="0.4s">
+                <img src="{{ 'assets/img/geo/Reseau.jpg'|theme }}" alt="Reseau">
+                <p class="fonctionnalite-desc-title">{{'Réseau'|_}}</p>
+                <p class="fonctionnalite-desc-text">{{'Connecté au réseau Lora, réseau dédié aux objets connectés'|_}}.</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center wow fadeInUp" data-wow-delay="0.4s">
+                <img src="{{ 'assets/img/geo/Etancheite.jpg'|theme }}" alt="Etancheite">
+                <p class="fonctionnalite-desc-title">{{'Etanchéité'|_}}</p>
+                <p class="fonctionnalite-desc-text">{{'Le système IOT est classé IP65 le protégeant des agressions extérieures et le rendant fonctionnel même dans des environnements hostiles'|_}}.</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center wow fadeInUp" data-wow-delay="0.4s">
+                <img src="{{ 'assets/img/geo/Autonomie.jpg'|theme }}" alt="Autonomie">
+                <p class="fonctionnalite-desc-title">{{'Autonomie'|_}}</p>
+                <p class="fonctionnalite-desc-text">{{'Sans aucun câblage, le système 100% autonome offre une  grande autonomie (3 ans et plus en fonction de l’utilisation)'|_}}.</p>
+            </div>
+
+        </div>
+      </div>
+    </section><!-- #fonctionnalite -->
+
+    <!--==========================
+      innovation Section
+    ============================-->
+    <section id="banner-img">
+        <div class="banner-img-container">
+            <div class="section-header">
+                <br>
+                <h3 class="section-title">{{'LOCALISER, PROTEGER, TRACKER CE QUI VOUS EST CHER'|_}} <!-- </br>{{'CHER'|_}} -->…</h3>
+                <br>
+                <div class="geosmart-blockquote">
+                    <blockquote>
+                        <p>
+                            <i class="fa fa-quote-left fa-1x" style="color: #ff9002;" aria-hidden="true"></i>    
+                            {{"La seule fin pour laquelle les hommes sont autorisés, individuellement ou
+                            collectivement, à intervenir dans la liberté d'action d'un de leurs semblables, est la protection de soi-même "|_ }} . <i class="fa fa-quote-right fa-1x" style="color: #ff9002;" aria-hidden="true"></i>
+                        </p>
+                        <footer>{{'John Stuart Mill'|_}}</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="col-lg-12 banner-img-list-img">
+                <img class="item-img" src="{{'assets/img/geo/GEOSMARTONE_1.jpg'|theme}}" alt="GEOSMARTONE_1">
+                <img class="item-img" src="{{'assets/img/geo/GEOSMARTONE_2.jpg'|theme}}" alt="GEOSMARTONE_2">
+                <img class="item-img" src="{{'assets/img/geo/GEOSMARTONE_3.jpg'|theme}}" alt="GEOSMARTONE_3">
+                <img class="item-img" src="{{'assets/img/geo/GEOSMARTONE_4.jpg'|theme}}" alt="GEOSMARTONE_4">
+                <img class="item-img" src="{{'assets/img/geo/GEOSMARTONE_5.jpg'|theme}}" alt="GEOSMARTONE_5">
+            </div>
+            <h2>
+                {{'Concepteur et fabricant de nos produits hardwares sans aucun intermédiaire, il est aisé pour nous de customiser les produits'|_}} {{'pour qu’ils correspondent exactement à vos besoins. Contactez-nous pour toute information '|_}}.
+            </h2>
+        </div>
+    </section><!-- #innovation -->
+
+
+    <!--==========================
+      NOTRE VISION Section
+    ============================-->
+    <section id="notre-vision" class="dataspy-section">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+            <h3 class="section-title">{{"NOTRE VISION"|_}}</h3>
+            <br>
+            <div class="geosmart-blockquote">
+                <blockquote>
+                    <p>
+                        <i class="fa fa-quote-left fa-1x" style="color: #ff9002;" aria-hidden="true"></i>    
+                        {{"La vraie innovation de rupture change la façon dont on rend le produit ou le "|_}}</br>
+                        {{"service plus accessible et plus abordable"|_}}. <i class="fa fa-quote-right fa-1x" style="color: #ff9002;" aria-hidden="true"></i>
+                    </p>
+                    <footer>{{"Damien Tampling"|_}}</footer>
+                </blockquote>
+            </div>
+        </div>
+        <div class="row notre-vision-desc">
+            <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0 wow fadeInUp" style="text-align: justify;" data-wow-delay="0.2s">
+                <div class="row" >
+                    <div class="col-lg-3" > 
+                         <img class="notre-vision-img" src="{{'assets/img/geo/Digitalisation.png'|theme}}" alt="Digitalisation">
+                    </div>
+                    <div class="col-lg-9"> 
+                        <h4 class="title">{{"Digitalisation"|_}}</h4>
+                        <p class="description">{{'Au-delà même de la géolocalisation, le monde connecté, à travers la multitude de sources, doit être pluriel. Le besoin d’adaptation est permanent.'|_}} {{'Nos solutions sont open et facilement interfaçables. Que vous optiez pour nos solutions hardware ou software, vous gardez le contrôle et c’est cela l’essentiel'|_}}.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0 wow fadeInUp" style="text-align: justify;" data-wow-delay="0.4s">
+                <div class="row">
+                    <div class="col-lg-3"> 
+                         <img class="notre-vision-img" src="{{'assets/img/geo/mesurey.png'|theme}}" alt="mesurey">
+                    </div>
+                    <div class="col-lg-9"> 
+                        <h4 class="title">{{ 'Le « sur-mesure »'|_}}</h4>
+                        <p class="description">{{'Nos solutions DFM sont taillées sur mesure : vous souhaitez gagner en productivité, optimiser vos sites logistiques, mesurer le taux de service de vos outils/produits,'|_}} {{'augmenter la satisfaction client ? Le tout à la fois ? Nous assurons un développement dédié des applications, site et programmes à des tarifs attractifs'|_}}.</p>
+                    </div>    
+                </div>
+            </div>
+            <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0 wow fadeInUp" style="text-align: justify;" data-wow-delay="0.6s">
+                <div class="row">
+                    <div class="col-lg-3"> 
+                         <img class="notre-vision-img" src="{{'assets/img/geo/Securisation.png'|theme}}" alt="Securisation">
+                    </div>
+                    <div class="col-lg-9 no-padding">
+                        <h4 class="title">{{"Sécurisation"|_}}</h4>
+                        <p class="description">{{'Dans un monde ou le danger est partout,'|_}} {{'recourir aux IOTs peut engendrer également de nouvelles vulnérabilités. Protégez vos données avec la technologie Blockchain.'|_}} {{" Accéder à vos données IoT sans avoir besoin d'un contrôle et d'une gestion centralisés en toute sécurité"|_}}.</p>
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </section><!-- #NOTRE VISION -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" style="display: none;" class="dataspy-section">
+        <div class="row no-margin" data-wow-delay="0.4s">
+            <div class="col-lg-6">
+                <div class="map"></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="section-header">
+                    <p class="section-description no-margin">
+                        {{"Remplissez ce formulaire et nous vous contactons au plus vite"|_}} 
+                    </p>
+                    <h2 class="section-title">{{"UNE QUESTION"|_}}  ?</h2>
+                </div>
+                <form class="contact-form" action="/index.html" method="post">
+                    <div class="row wow fadeInUp no-margin" data-wow-delay="0.4s">
+                        <div class="col col-lg-1"></div>
+                        <div class="col col-lg-10">
+                            <div class="form-group">
+                                <label for="name" class="sr-only">{{"Nom"|_}}*</label>
+                                <input class="form-control" data-rule="required" name="name" placeholder="Nom*" required type="text">
+                            </div>
+                        </div>
+                        <div class="col col-lg-1"></div>
+                    </div>
+                    <div class="row wow fadeInUp no-margin" data-wow-delay="0.4s">
+                        <div class="col col-lg-1"></div>
+                        <div class="col col-lg-10">
+                            <div class="form-group">
+                                <label for="courriel" class="sr-only">{{"Courriel"|_}}*</label>
+                                <input type="email" class="form-control" data-rule="required"  name="courriel" placeholder="{{'Courriel'|_}}*" required type="text">
+                            </div>
+                        </div>
+                        <div class="col col-lg-1"></div>
+                    </div>    
+                    <div class="row wow fadeInUp no-margin" data-wow-delay="0.4s">
+                        <div class="col col-lg-1"></div>
+                        <div class="col col-lg-10">
+                            <div class="form-group">
+                                <label for="sujet" class="sr-only">{{"Sujet"|_}}*</label>
+                                <input class="form-control" data-rule="required"  name="sujet" placeholder="Sujet*" required type="text">
+                            </div>
+                        </div>
+                        <div class="col col-lg-1"></div>
+                    </div>
+                    <div class="row wow fadeInUp no-margin" data-wow-delay="0.4s">
+                        <div class="col col-lg-1"></div>
+                        <div class="col col-lg-10">
+                            <div class="form-group">
+                                <label for="message" class="sr-only">{{"Message"|_}}*</label>
+                                <input class="form-control" data-rule="required"  name="message" placeholder="Message*" required type="text">
+                            </div>
+                        </div>
+                        <div class="col col-lg-1"></div>
+                    </div>      
+                    <div class="row wow fadeInUp no-margin" data-wow-delay="0.4s">
+                        <div class="col col-lg-5"></div>
+                        <div class="col col-lg-2">
+                            <button type="submit" id="contactForm" class="btn btn-default contact-btn">{{"ENVOI"|_}}</button>
+                        </div>
+                        <div class="col col-lg-5"></div> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section> 
+   
+     <!--==========================
+      Infomation Section
+    ============================-->
+
+    <section id="information">
+        <div class="container wow fadeIn">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker"></i></div>
+                        <h4 class="title">{{"Nous rencontrer"|_}}</h4>
+                        <p class="description">
+                            {{"230 rue Saint-Jacques "|_}}</br>
+                            {{"75005 Paris"|_}}
+                        </p>
+                        <p class="description">
+                           {{" 21 rue de Brin"|_}} </br>
+                           {{" 86130 Jaunay-Marigny"|_}}
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-comments-o"></i></div>
+                        <h4 class="title">{{"Nous appeler"|_}}</h4>
+                        <p class="description">
+                            {{"Téléphones"|_}} : (33) 610150607 (33) 549458135
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-open-o"></i></div>
+                        <h4 class="title">{{"Nous contacter"|_}}</h4>
+                        <p class="description">
+                            <a href="mailto:info@dfm-europe.com">info@dfm-europe.com</a>
+                        </p>
+                        <p class="description">
+                            <a class="btn-link" href="http://www.dfm-europe.com">www.dfm-europe.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+ <!--  <footer id="footer">
+   <div class="footer-top">
+        <div class="container">
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="copyright">
+            &copy; Copyright <strong></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+
+        </div>
+    </div>
+  </footer> -->
+  <!-- #footer -->
+
+    <a href="#" class="back-to-top">
+        <img width="45" height="45" src="{{'assets/img/geo/arrow_up.png'|theme}}" alt="arrow_up">
+    </a>
+
+<!--     <div id="loading">
+      <img id="loading-image" src="img/geo/ajax-loader.gif" alt="Loading..." />
+    </div> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="politique" tabindex="-1" role="dialog" aria-labelledby="politique" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="display: inline-flex;">
+                        <img width="130" height="32" src="{{'assets/img/geo/Logo_DFM.png'|theme}}" alt="Logo_DFM">
+                        <p>{{"POLITIQUE DE CONFIDENTIALITE"|_}}</p>
+                    </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p> 1. {{'Collecte de l’information Nous recueillons uniquement votre courriel'|_}}.</p>
+
+                    <p> 2. {{'Utilisation des informations Vous contacter par e-mail pour vous tenir informé des nouveautés DFM'|_}}.</p>
+
+                    <p> 3. {{'Confidentialité du commerce en ligne Nous sommes les seuls propriétaires des informations recueillies sur ce site.'|_}} {{' Vos informations personnelles ne seront pas vendues, échangées, transférées, ou données à une autre société pour n’importe quel raison, sans votre consentement'|_}}.</p>
+
+                    <p> 4. {{'Divulgation à des tiers Nous ne vendons, n’échangeons et ne transférons pas vos informations personnelles identifiables à des tiers'|_}}.</p>
+
+                    <p> 5. {{'Se désabonner Si à n’importe quel moment vous souhaitez vous désinscrire et ne plus recevoir d’e-mails, des instructions de désabonnement détaillées sont incluses en bas de chaque e-mail'|_}}.</p>
+
+                    <p> 6. {{'Consentement En utilisant notre site, vous consentez à notre politique de confidentialité'|_}}.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">{{"Close"|_}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="mess-email" tabindex="-1" role="dialog" aria-labelledby="mess-email" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="display: inline-flex;">
+                        <img width="130" height="32" src="{{ 'assets/img/geo/Logo_DFM_2.png'|theme }} " alt="Logo_DFM ">
+                        <p>{{"SUIVEZ-NOUS"|_}}!</p>
+                    </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p> {{"DFM vous remercie de votre intérêt dans nos produits et services"|_}}.</p>
+
+                    <p> {{"En nous rejoignant, vous ne manquerez plus rien de nos nouveautés et nous avons le plaisir de vous invité à nous rejoindre au salon IoT-World, Paris Expo - Porte de Versailles – France"|_}}.</p>
+
+                    <p> {{"A très bientôt"|_}}</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">{{"Close"|_}}</button>
+                </div>
+            </div>
+        </div>
+    </div>

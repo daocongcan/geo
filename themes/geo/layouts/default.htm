@@ -1,0 +1,88 @@
+description = "Default layout"
+[localePicker]
+==
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>October CMS - {{ this.page.title }}</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="OctoberCMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="OctoberCMS">
+
+        
+        <!-- Favicons -->
+        <link href="{{ 'assets/img/favicon.png'|theme }}" rel="icon">
+        <link href="{{ 'assets/img/apple-touch-icon.png'|theme }}" rel="apple-touch-icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+        <!-- Bootstrap CSS File -->
+        <link href="{{ 'assets/lib/bootstrap/css/bootstrap.min.css'|theme }}" rel="stylesheet">
+
+        <!-- Libraries CSS Files -->
+        <link href="{{ 'assets/lib/font-awesome/css/font-awesome.min.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/lib/animate/animate.min.css'|theme }}" rel="stylesheet">
+
+        <!-- Main Stylesheet File -->
+        <link href="{{ 'assets/css/style.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/custom.css'|theme }}" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+        {% styles %}
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header id="header">
+            {% partial 'site/header' %}
+        </header>
+
+        <!-- Content -->
+        <section id="layout-content">
+            {% page %}
+        </section>
+
+        <!-- Footer -->
+        <!-- <footer id="layout-footer">
+            {% partial 'site/footer' %}
+        </footer> -->
+
+        <!-- Scripts -->
+
+
+        
+        <!-- JavaScript Libraries -->
+      <script src="{{ 'assets/lib/jquery/jquery.min.js'|theme }}"></script>
+      <script src="{{ 'assets/lib/jquery/jquery-migrate.min.js'|theme }}"></script>
+      <script src="{{ 'assets/lib/bootstrap/js/bootstrap.bundle.min.js'|theme }}"></script>
+      <script src="{{ 'assets/lib/bootstrap/js/bootbox.min.js'|theme }}"></script>
+      <script src="{{ 'assets/lib/easing/easing.min.js'|theme }}"></script>
+      <script src="{{ 'assets/lib/wow/wow.min.js'|theme }}"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+
+      <script src="{{ 'assets/lib/waypoints/waypoints.min.js'|theme }}"></script>
+      <script src="{{ 'assets/lib/counterup/counterup.min.js'|theme }}"></script>
+      <script src="{{ 'assets/lib/superfish/hoverIntent.js'|theme }}"></script>
+      <script src="{{ 'assets/lib/superfish/superfish.min.js'|theme }}"></script>
+
+      <!-- Contact Form JavaScript File -->
+      <script src="{{ 'assets/contactform/contactform.js'|theme }}"></script>
+
+      <!-- Template Main Javascript File -->
+      <script src="{{ 'assets/js/main.js'|theme}}"></script>
+
+        <!-- Custom Javascript File -->
+      <script type="text/javascript" src="{{ 'assets/js/custom.js'|theme }}"></script>
+
+      
+        {% framework extras %}
+        {% scripts %}
+
+     
+    </body>
+</html>
