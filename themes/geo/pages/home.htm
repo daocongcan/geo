@@ -22,8 +22,8 @@ layout = "default"
         <div class="sectionBGcontent">
 
             <!-- <h5>{{'Industrie 4.0, la nouvelle révolution. Agir, contrôler, maîtriser.'|_}}</h5> -->
-            <h3 style="font-size: 30px;"><!-- {{'CREATEUR SUR-MESURE IoT'|_}} -->DECOUVRER LE NOUVEAU GEOSMARTONE ®</h3>
-            <h5 style="margin-top: -15px;">DFM, créateur d’IoT</h5>
+            <h3 style="font-size: 30px;"><!-- {{'CREATEUR SUR-MESURE IoT'|_}} -->{{'DECOUVRER LE NOUVEAU GEOSMARTONE'|_}} ®</h3>
+            <h5 style="margin-top: -15px;">{{'DFM, créateur d’IoT'|_}}</h5>
             <p class="group-btn">
                 <a target="_blank" rel="nofollow" class="btn-inline" href="https://www.infsoft.com/technology/hardware/infsoft-locator-tags?gclid=CjwKCAjwwo7cBRBwEiwAMEoXPM97J9Ax8yujcmJq8K1rDu3OKdEuMfCkVLv0DvKUY6Ysb1eFhxeqfhoCAYMQAvD_BwE#LoRa
 ">{{'Suivez le nouveau GS1'|_}}</a>
@@ -66,16 +66,36 @@ layout = "default"
                     <img style="width: 50%;margin:0 auto;display: block;" src="{{ 'assets/img/geo/Geolocation.jpg'|theme }}" alt="Geolocation" class="img-responsive">
                 </div>
                 <div class="col-md-8" style=" text-align: justify;" >
-                    <p>
-                        {{'Basé sur la technologie LoRaWANTM, le système de géolocalisation <span class="geosmart" >GeoSmart</span>One®  est composé de la meilleure de la technologie pour proposer un système de tracking au meilleur tarif'|_}}.                     
+
+                    
+                    {% if locale=='fr' %} 
+                    <p >
+                        Basé sur la technologie LoRaWANTM, le système de géolocalisation <span class="geosmart" >GeoSmart</span>One®  est composé de la meilleure de la technologie pour proposer un système de tracking au meilleur tarif.                     
                     </p>
-                    <p>
-                        {{'En effet, même si le <span class="geosmart" >GeoSmart</span>One® est un concentré de technologie - GPS précis avec un REV inférieur à 10m, transmis LoRa Semtech, accéléromètre XX -, nos équipes l’ont développé en recherchant à intégrer une autre variable importante, son prix!  De plus, les boitiers sont customisables à volonté pour donner une identité à votre produit'|_}}.
+                    <p >
+                        En effet, même si le <span class="geosmart" >GeoSmart</span>One® est un concentré de technologie - GPS précis avec un REV inférieur à 10m, transmis LoRa Semtech, accéléromètre XX -, nos équipes l’ont développé en recherchant à intégrer une autre variable importante, son prix!  De plus, les boitiers sont customisables à volonté pour donner une identité à votre produit.
                     
                     </p>
-                    <p>
-                        {{'Nos équipes proposent également des solutions logicielles dédiées permettant également de développer le suivi de vos matériels, les taux de fonctionnements ou encore de lutter contre les vols. A chaque utilisation, une smart-solution vous est proposée'|_}} :                      
+                    <p >
+                        Nos équipes proposent également des solutions logicielles dédiées permettant également de développer le suivi de vos matériels, les taux de fonctionnements ou encore de lutter contre les vols. A chaque utilisation, une smart-solution vous est proposée:                      
                     </p>
+
+                    {% endif %}
+
+                    {% if locale=='en' %} 
+
+                    <p >
+                        Based on the LoRaWANTM technology, the <span class="geosmart" >GeoSmart</span>One® geolocation system is composed of the best technology to offer a tracking system at the best price..                     
+                    </p>
+                    <p >
+                        Indeed, the <span class="geosmart" >GeoSmart</span>One® is a concentrate of GPS technology and a REV less than 10m, which is transmitted LoRa Semtech and possesses accelerometer XX. But the most important thing of this tracking device: his attractive price! In addition, the system is customizable, this mean it can be provided as a details in accordance with the wishes of the client.
+                    
+                    </p>
+                    <p >
+                        Our teams also provide dedicated software solutions which is developed for monitor of your equipment, operating rates or theft prevention. In every step of use, a smart-solution is proposed to you:                      
+                    </p>
+
+                     {% endif %}
 
                 </div>
                 <div class="row" style="padding-left: 140px;">

@@ -1,18 +1,4 @@
-==
-<?php
-use RainLab\Translate\Classes\Translator;
-function onStart()
-{
 
-    if (class_exists('RainLab\Translate\Classes\Translator')) {
-        $translator = Translator::instance();
-        $this['locale'] = $translator->getLocale();
-    }
-   
-}
-?>
-
-==
 <!-- Nav -->
 <!--==========================
   Header
