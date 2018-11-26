@@ -28,11 +28,22 @@ layout = "default"
                 <a target="_blank" rel="nofollow" class="btn-inline" href="https://www.infsoft.com/technology/hardware/infsoft-locator-tags?gclid=CjwKCAjwwo7cBRBwEiwAMEoXPM97J9Ax8yujcmJq8K1rDu3OKdEuMfCkVLv0DvKUY6Ysb1eFhxeqfhoCAYMQAvD_BwE#LoRa
 ">{{'Suivez le nouveau GS1'|_}}</a>
                 <!-- <a class="btn-inline" href="/file/siteGEOLOC27012018.pdf" target="_blank">Notre livre blanc</a> -->
-                <a class="btn-inline" href="#" target="">{{'Datasheet'|_}}</a>
+                {% if locale=='fr' %} 
+                    <a target="_blank" class="btn-inline" href="{{'assets/datasheet/GeoSmartOne-DataSheetFR-V2.pdf'|theme}}" target="">
+                    {{'Datasheet'|_}}</a>
+                {% endif %}    
+                
+                {% if locale=='en' %} 
+                    <a target="_blank" class="btn-inline" href="{{'assets/datasheet/GeoSmartOne-DataSheetFR-V2-English.pdf'|theme}}" target=""> {{'Datasheet'|_}}</a>                   
+                {% endif %}    
+
+                
+
+                
             </p>
             <p class="brochure">
                 <!-- <a class="btn-brochure" href="/file/siteGEOLOC27012018.pdf" target="_blank">Brochure DFM -></a> -->
-                <a class="btn-brochure" href="#" target="">{{'Brochure DFM'|_}} -></a>
+                <a target="_blank" class="btn-brochure" href="{{'assets/brochure/GeoSmartOne-Brochure-full.pdf'|theme}}" target="">{{'Brochure DFM'|_}} -></a>
             </p>
             <p class="arrow-down">
                 <a href="#main" class="back-to-down" id="bnSrlDown">
