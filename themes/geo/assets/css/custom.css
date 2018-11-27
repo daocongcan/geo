@@ -28,13 +28,13 @@
 }
 
 /*---------------------#############################--------------
-# innovation Section
+# innovation Section background: url(../img/geo/IOT_1.jpg) top center fixed;
 --------------------------------------------------------------*/
 #innovation {
     display: table;
     width: 100%;
     height: 95vh;
-    /*background: url(../img/geo/IOT_1.jpg) top center fixed;*/
+    
     background-size: cover;
     background-color: orange;
 }
